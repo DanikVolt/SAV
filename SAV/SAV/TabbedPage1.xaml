@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SAV.TabbedPage1">
+  <!--Pages can be added as references or inline-->
+    <TabbedPage Title="Воздух" IconImageSource="vv.jpg" BarTextColor="Black" BackgroundColor="LightYellow" BarBackgroundColor="White" xmlns:local="clr-namespace:SAV" >
+        <TabbedPage.Children>
+            <local:Aang />
+            <local:jang />
+
+        </TabbedPage.Children>
+    </TabbedPage>
+    <TabbedPage Title="Вода" IconImageSource="v.jpg" BarTextColor="Black" BackgroundColor="LightYellow" BarBackgroundColor="Aqua" xmlns:local="clr-namespace:SAV" >
+        <TabbedPage.Children>
+            <local:kora />
+            <local:kur />
+
+        </TabbedPage.Children>
+    </TabbedPage>
+    <TabbedPage Title="Земля" IconImageSource="z.jpg" BarTextColor="Black" BackgroundColor="LightYellow" BarBackgroundColor="#783C1C" xmlns:local="clr-namespace:SAV" >
+        <TabbedPage.Children>
+            <local:kio />
+            <local:sho />
+
+        </TabbedPage.Children>
+    </TabbedPage>
+    <TabbedPage Title="Огонь" IconImageSource="o.jpg" BarTextColor="Black" BackgroundColor="LightYellow" BarBackgroundColor="OrangeRed" xmlns:local="clr-namespace:SAV" >
+        <TabbedPage.Children>
+            <local:Rok />
+            <local:sho1 />
+
+        </TabbedPage.Children>
+    </TabbedPage>
+</TabbedPage>
